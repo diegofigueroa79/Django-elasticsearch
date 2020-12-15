@@ -1,0 +1,11 @@
+
+<div class="article-ls">
+	<ul>
+		{% for article in articles %}
+			<li>
+				<p>{{ article.title }}</p>
+				<p>{{ article.text }}</p>
+			</li>
+		{% endfor %}
+	</ul>
+</div>
